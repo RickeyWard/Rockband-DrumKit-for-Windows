@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0868FC1B-6996-4A9D-B824-DE19E679DDED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rockband_Drum_Kit</RootNamespace>
+    <AssemblyName>Rockband Drum Kit</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>DrumKit.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="irrKlang.NET2.0, Version=1.1.3.0, Culture=neutral, PublicKeyToken=a854741bd80517c7, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\irrKlang.NET2.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.DirectX.DirectInput.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\imgButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RBMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RBMessageBox.Designer.cs">
+      <DependentUpon>RBMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen\FloatingWindow.cs" />
+    <Compile Include="SplashScreen\SplashScreen.cs" />
+    <Compile Include="UtilityClasses\ConfirmWav.cs" />
+    <Compile Include="Controls\BasicHorizontalSlider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Metronome.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MMTimer.cs" />
+    <Compile Include="DrumPadEvent.cs">
+    </Compile>
+    <Compile Include="MIDI\Aftertouch.cs" />
+    <Compile Include="MIDI\ChannelPrefix.cs" />
+    <Compile Include="MIDI\ChannelPressure.cs" />
+    <Compile Include="MIDI\ChunkHeader.cs" />
+    <Compile Include="MIDI\Controller.cs" />
+    <Compile Include="MIDI\Controllers.cs" />
+    <Compile Include="MIDI\Copyright.cs" />
+    <Compile Include="MIDI\CuePoint.cs" />
+    <Compile Include="MIDI\DeviceName.cs" />
+    <Compile Include="DrumPad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrumPad.Designer.cs">
+      <DependentUpon>DrumPad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrumPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DrumPedal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrumPedal.Designer.cs">
+      <DependentUpon>DrumPedal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MIDI\EndOfTrack.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MIDI\GeneralMidiInstruments.cs" />
+    <Compile Include="MIDI\GeneralMidiPercussion.cs" />
+    <Compile Include="MIDI\Instrument.cs" />
+    <Compile Include="Joystick.cs" />
+    <Compile Include="MIDI\Key.cs" />
+    <Compile Include="MIDI\KeySignature.cs" />
+    <Compile Include="MIDI\Lyric.cs" />
+    <Compile Include="MIDI\ManufacturerID.cs" />
+    <Compile Include="MIDI\Marker.cs" />
+    <Compile Include="MIDI\MetaMidiEvent.cs" />
+    <Compile Include="MIDI\MidiCodeGenerator.cs" />
+    <Compile Include="MIDI\MidiEvent.cs" />
+    <Compile Include="MIDI\MidiEventCollection.cs" />
+    <Compile Include="MIDI\MidiInterop.cs" />
+    <Compile Include="MIDI\MidiParser.cs" />
+    <Compile Include="MIDI\MidiPlayer.cs" />
+    <Compile Include="MIDI\MidiPort.cs" />
+    <Compile Include="MIDI\MidiSequence.cs" />
+    <Compile Include="MIDI\MidiTrack.cs" />
+    <Compile Include="MIDI\MThdChunkHeader.cs" />
+    <Compile Include="MIDI\MTrkChunkHeader.cs" />
+    <Compile Include="MIDI\NoteOff.cs" />
+    <Compile Include="MIDI\NoteOn.cs" />
+    <Compile Include="MIDI\NoteVoiceMidiEvent.cs" />
+    <Compile Include="MIDI\PitchWheel.cs" />
+    <Compile Include="MIDI\PitchWheelSteps.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MIDI\ProgramChange.cs" />
+    <Compile Include="MIDI\ProgramName.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DrumPad.resx">
+      <DependentUpon>DrumPad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrumPedal.resx">
+      <DependentUpon>DrumPedal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RBMessageBox.resx">
+      <DependentUpon>RBMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MIDI\Proprietary.cs" />
+    <Compile Include="PS3RockbandControlerEvents.cs" />
+    <Compile Include="RockBandDrumControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RoundRectangles.cs" />
+    <Compile Include="MIDI\SequenceNumber.cs" />
+    <Compile Include="MIDI\SequenceTrackName.cs" />
+    <Compile Include="SimplePlaySound.cs" />
+    <Compile Include="MIDI\SMPTEOffset.cs" />
+    <Compile Include="SoundEngine.cs" />
+    <Compile Include="MIDI\SpecialChannels.cs" />
+    <Compile Include="MIDI\SystemExclusiveMidiEvent.cs" />
+    <Compile Include="MIDI\Tempo.cs" />
+    <Compile Include="MIDI\Text.cs" />
+    <Compile Include="MIDI\TextMetaMidiEvent.cs" />
+    <Compile Include="MIDI\TimeSignature.cs" />
+    <Compile Include="MIDI\Tonality.cs" />
+    <Compile Include="MIDI\UnknownMetaMidiEvent.cs" />
+    <Compile Include="MIDI\VoiceMidiEvent.cs" />
+    <Compile Include="transTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UtilityClasses\JoystickConnectNotification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DrumKit.ico" />
+    <Content Include="Resources\custom-dialog-cosebtn.png" />
+    <Content Include="Resources\Drumset.png" />
+    <Content Include="Resources\MetronomeBG.png" />
+    <Content Include="Resources\MetronomeBGMoused.png" />
+    <Content Include="Resources\RB_messagedialog.png" />
+    <Content Include="Resources\SplashBG.png" />
+    <Content Include="Resources\splash_progress.png" />
+    <Content Include="Resources\TitleImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

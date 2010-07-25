@@ -1,0 +1,27 @@
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.Form1.resources
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.Properties.Resources.resources
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.csproj.GenerateResource.Cache
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Rockband Drum Kit.exe
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Rockband Drum Kit.pdb
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\irrKlang.NET2.0.dll
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.DirectInput.dll
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.dll
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.xml
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.exe
+C:\Documents and Settings\Rickey\My Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.pdb
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.exe
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.pdb
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Rockband Drum Kit.exe
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Rockband Drum Kit.pdb
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\irrKlang.NET2.0.dll
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.DirectInput.dll
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.xml
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.Form1.resources
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.Properties.Resources.resources
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband Drum Kit.csproj.GenerateResource.Cache
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\bin\Release\Microsoft.DirectX.dll
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.DrumPad.resources
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.DrumPedal.resources
+C:\Users\Rickey\Documents\Visual Studio 2008\Projects\Rockband Drum Kit\Rockband Drum Kit\obj\Release\Rockband_Drum_Kit.RBMessageBox.resources
